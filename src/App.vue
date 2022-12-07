@@ -2,24 +2,19 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
-
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+    <nav>
+      <RouterLink to="/">Inicio</RouterLink>
+      <RouterLink to="/about">Acerca De</RouterLink>
+    </nav>
+    <!--<img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />-->
     <div class="wrapper">
-      <!--<HelloWorld msg="Bienvenido" />-->
-
-      <nav>
-        <RouterLink to="/">Inicio</RouterLink>
-        <RouterLink to="/about">Acerca De</RouterLink>
-      </nav>
+      <HelloWorld msg="Bienvenido" />
     </div>
   </header>
-
   <RouterView />
 </template>
-
 <style scoped>
 header {
   line-height: 1.5;
