@@ -7,20 +7,23 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterLink to="/">Inicio</RouterLink>
     <RouterLink to="/about">Acerca De</RouterLink>
   </nav>
-  <!--<header>
+  <!--
+  <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
     <div class="wrapper">
     </div>
-  </header>-->
+  </header>
+  -->
   <!--<HelloWorld msg="Bienvenido" />-->
   <RouterView />
 </template>
 <style scoped>
-/*header {
+/*
+header {
   line-height: 1.5;
   max-height: 100vh;
-}*/
-
+}
+*/
 .logo {
   display: block;
   margin: 0 auto 2rem;
